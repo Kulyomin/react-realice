@@ -1,0 +1,17 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1.3fr 3fr;
+    margin: 10px 20px;
+}
+/* Собеседники */
+.dialogs_items {
+}
+
+/* Сообщения */
+.messages {
+    margin:0 30px;
+}
+
+.message {
+    padding-bottom: 30px;
+}

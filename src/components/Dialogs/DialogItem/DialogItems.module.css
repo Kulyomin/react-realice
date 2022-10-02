@@ -1,0 +1,21 @@
+.dialog {
+    padding-bottom: 20px;
+    display: flex;
+    border-right: 1px solid #888888;
+}
+
+.dialog img {
+    width: 47px;
+    height: 47px;
+    margin-right: 15px;
+}
+
+.dialog_link {
+    color:#fff;
+    text-decoration: none;
+}
+
+.dialog_link:hover {
+    color: #04a8fa;
+    transition: ease .3s;
+}

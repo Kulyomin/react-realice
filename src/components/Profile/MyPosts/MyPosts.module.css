@@ -1,0 +1,9 @@
+.post_container {
+    margin: 20px;
+}
+
+.post_container textarea {
+    border: 1px solid #888;
+    outline: none;
+    resize: none;
+}

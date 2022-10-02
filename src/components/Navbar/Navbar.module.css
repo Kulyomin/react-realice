@@ -1,0 +1,33 @@
+.nav {
+    background-color: var(--all-bg);
+    color: #fff;
+    height: 300px;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.nav ul li {
+    padding: 5px 0;
+}
+
+.nav_link {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: ease .3s;
+}
+
+.nav_link:hover {
+    transform: translateX(20px);
+}
+
+.active {
+    display: block;
+    width: 100%;
+    color: #04a8fa;
+    font-size: 17px;
+    text-decoration: none;
+    transition: ease .3s;
+}
