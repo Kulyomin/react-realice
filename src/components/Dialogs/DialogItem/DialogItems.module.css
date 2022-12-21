@@ -1,7 +1,6 @@
 .dialog {
     padding-bottom: 20px;
     display: flex;
-    border-right: 1px solid #888888;
 }
 
 .dialog img {

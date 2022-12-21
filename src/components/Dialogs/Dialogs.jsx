@@ -2,7 +2,7 @@ import React from 'react';
 import stl from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
-import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/state";
+import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/dialogs-reducer";
 
 const Dialogs = (props) => {
 
@@ -24,17 +24,20 @@ const Dialogs = (props) => {
     }
 
     return (<div className={stl.dialogs}>
+            {/*Собеседники*/}
             <div className={stl.dialogs_items}>
                 {dialogsElements}
             </div>
 
-            <div className={stl.messages}>
-                <div>
+            {/*Сообщения*/}
+            <div className={stl.messages_container}>
+                <div className={stl.messages}>
                     {messagesElements}
                 </div>
-                <div>
-                    <div>
+                <div className={stl.message_action}>
+                    <div className={stl.message_textarea}>
                         <textarea
+                            className={stl.textarea}
                             value={newMessageBody}
                             onChange={onNewMessageChange}
                             placeholder='Enter your message'
@@ -45,7 +48,7 @@ const Dialogs = (props) => {
                         </textarea>
                     </div>
                     <div>
-                        <button onClick={onSendMessageClick}>Send</button>
+                        <button className={stl.message_btn} onClick={onSendMessageClick}>Send</button>
                     </div>
                 </div>
             </div>

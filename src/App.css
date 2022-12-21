@@ -1,37 +1,36 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  /*background-color: #17181b;*/
-  background: url(./images/background_all1.jpg);
-  font-family: 'Roboto', sans-serif;
-  background-size: cover;
-  padding: 0;
-  margin: 0;
+    background: radial-gradient(circle, rgba(16,41,98,1) 40%, rgba(0,0,0,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
-  padding-left: 0;
-  margin: 0;
+    padding-left: 0;
+    margin: 0;
 }
 
 ul > li {
-  list-style: none;
+    list-style: none;
 }
 
 :root {
-  /* --all-bg:#23262b; */
-  --all-bg: rgba(8, 8, 8, 0.61);
+    /* --all-bg:#23262b; */
+    --all-bg: rgba(8, 8, 8, 0.61);
 }
 
 .container {
-	width: 100%;
-	max-width: 1200px;
-	padding: 0 30px;
-	margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
 }
 
 .main {
